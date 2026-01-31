@@ -1,0 +1,54 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "title": "Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "director": "Peter Jackson",
+      "category": "fantastic",
+      "rating": 8.9,
+      "watched": true,
+      "isFavorite": true
+    },
+    {
+      "id": 2,
+      "title": "The Hobbit: An Unexpected Journey",
+      "year": 2012,
+      "director": "Peter Jackson",
+      "category": "fantastic",
+      "rating": 7.8,
+      "watched": true,
+      "isFavorite": false
+    },
+    {
+      "id": 3,
+      "title": "The Maze Runner",
+      "year": 2014,
+      "director": "Wes Ball",
+      "category": "sci-fi",
+      "rating": 6.8,
+      "watched": false,
+      "isFavorite": false
+    },
+    {
+      "id": 4,
+      "title": "The Help",
+      "year": 2011,
+      "director": "Tate Taylor",
+      "category": "drama",
+      "rating": 8.1,
+      "watched": true,
+      "isFavorite": true
+    },
+    {
+      "id": 5,
+      "title": "Tomorrowland",
+      "year": 2015,
+      "director": "Brad Bird",
+      "category": "sci-fi",
+      "rating": 6.4,
+      "watched": false,
+      "isFavorite": false
+    }
+  ]
+}

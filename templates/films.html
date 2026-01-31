@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <style>
+        body { font-family: sans-serif; background: #ececec; padding: 20px; }
+        .container { max-width: 900px; margin: auto; }
+        .film-card { background: white; margin-bottom: 15px; padding: 15px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+        .film-card h3 { margin-top: 0; color: #2c3e50; }
+        .search-box { margin-bottom: 20px; }
+        input { padding: 8px; width: 250px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{title}}</h1>
+        <div class="search-box">
+            <form action="/search" method="get">
+                <input type="text" name="q" placeholder="Film ara...">
+                <button type="submit">Ara</button>
+                <a href="/films">Temizle</a>
+            </form>
+        </div>
+        <div id="films">
+            {{filmList}}
+        </div>
+        <br>
+        <a href="/">← Ana Sayfaya Dön</a>
+    </div>
+</body>
+</html>
